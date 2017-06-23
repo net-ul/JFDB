@@ -1,0 +1,35 @@
+{
+    "description": "A test data table.",
+    "fields": {
+        "id": {
+            "type": "int",
+            "default": "AUTO_INCREMENT"
+        },
+        "uuid": {
+            "type": "varchar",
+            "length": "64",
+            "default": "AUTO_UUID"
+        },
+        "uid": {
+            "type": "int",
+            "default": 0
+        },
+        "message": {
+            "type": "varchar",
+            "length": "1024"
+        },
+        "date": {
+            "type": "int",
+            "default": "CURRENT_TIMESTAMP"
+        }
+    },
+    "primary key": [
+        "id"
+    ],
+    "indexes": [
+        "uid",
+        "date"
+    ],
+    "AUTO_INCREMENT": 7,
+    "PERMANENT_INDEX": 7
+}

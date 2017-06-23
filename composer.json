@@ -1,12 +1,14 @@
 {
   "name": "iwsp/jfdb",
-  "version": "1.0.0-dev",
+  "version": "1.0.1-dev",
   "license": "MIT",
   "description": "JSON File Database.",
+  "homepage": "https://szu.be/projects/jfdb",
   "authors": [
     {
       "name": "Net",
-      "role": "Admin"
+      "role": "Admin",
+      "homepage": "https://szu.be"
     }
   ],
   "autoload": {

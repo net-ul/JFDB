@@ -1,7 +1,7 @@
 
 About and Motivation
 --------------------
-	JFDB (JSON file Database) is lightweight database system store date in json
+	[JFDB](https://szu.be/projects/jfdb) (JSON file Database) is lightweight database system store date in json
 	files and allow to use in small scale project. Currently it is designed for
 	PHP and plane to extend.
 
